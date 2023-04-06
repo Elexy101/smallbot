@@ -12,13 +12,13 @@ A smallbot implementation for direct communication, feedback system using CHAT-G
 
 
 #FEATURES
-``` online/offline chat ```
-``` bank short-codes ```
-``` scholarship lists update ```
-``` feedback analysis top-rated ```
-``` coming soon more features ```
+* online/offline chat ```
+* bank short-codes ```
+* scholarship lists update ```
+* feedback analysis top-rated ```
+* coming soon more features ```
 
 
 #UPGRADE FEATURES
- ``` Find my devices connected ```
- ``` Bot Asssitant via API ```
+* Find my devices connected ```
+* Bot Asssitant via API ```
