@@ -1,5 +1,5 @@
 # smallbot
-A smallbot implementation for direct communication, feedback system using CHAT-GPT and JAVA 
+A smallbot app implementation for direct communication, feedback system using CHAT-GPT and Android JAVA 
 
 # INSTALLATION GUIDE
 * Android Studio
