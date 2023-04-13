@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/spin1" android:oneshot="false">
+	<item android:duration="5000" android:drawable="@drawable/bg3" />
+	<item android:duration="5000" android:drawable="@drawable/bg4" />
+	<item android:duration="5000" android:drawable="@drawable/bg5" />
+	<item android:duration="5000" android:drawable="@drawable/bg6" />
+</animation-list>
