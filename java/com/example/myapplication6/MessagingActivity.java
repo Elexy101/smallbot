@@ -323,23 +323,7 @@ public class MessagingActivity extends ListActivity implements OnClickListener, 
                     });
                     hanny.create().show();
                 }
-                if (myMessageText.contains("Qin Liang") || myMessageText.contains("Liang Qin")) {
-                    hanny = new Builder(this);
-                    hanny.setTitle("Qin Yong Liang");
-                    hanny.setIcon(R.drawable.qin);
-                    hanny.setMessage(Html.fromHtml("<font face='harrington' color='#ff6288' size=+0.4><b>Born:</b> May 11, 1993 <br>Qin Yong Liang is a chinese-based computer programmer, graphic designer, photographer. He is hardworking and smart in his field.</font>"));
-                    hanny.setNegativeButton("OK", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            dialog.cancel();
-                        }
-                    });
-                    hanny.setPositiveButton("Speak Chinese", new DialogInterface.OnClickListener() {
-                        public void onClick(DialogInterface dialog, int id) {
-                            MessagingActivity.this.convertTextToSpeech21();
-                        }
-                    });
-                    hanny.create().show();
-                }
+
                 if (myMessageText.contains("how are you?") || myMessageText.contains("How are you?") || myMessageText.contains("how are you") || myMessageText.contains("How are you")) {
                     addNewMessage(getRandomMessage7(), 0);
                     convertTextToSpeech4();
@@ -848,9 +832,7 @@ public class MessagingActivity extends ListActivity implements OnClickListener, 
         Log.e("error", "Initilization Failed!");
     }
 
-    private void convertTextToSpeech21() {
-        this.textToSpeech.speak("Born on May 11, 1993, Qin Yong Liang is a chinese-based computer programmer, graphic designer, photographer. He is hardworking and smart in his field.", 0, null);
-    }
+
 
     public static String StreamToString(InputStream in) throws IOException {
         if (in == null) {
